@@ -42,7 +42,6 @@ const Repository = ({ id, title, url, techs = [], likes, handleLikeRepository })
       <TouchableOpacity
         style={styles.button}
         onPress={(id) => handleLikeRepository(id)}
-        // Remember to replace "1" below with repository ID: {`like-button-${repository.id}`}
         testID={`like-button-${id}`}
       >
         <Text style={styles.buttonText}>Curtir</Text>
